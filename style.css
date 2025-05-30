@@ -1,0 +1,138 @@
+body {
+    background-color: #7a1a51;
+    color: #785be9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+header {
+    background-color: #3C1FB2;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav a {
+    background-color: #D93290;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 5px double #41102c;
+    color: #785be9;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    background-color: #41102c;
+    border: 5px double #D93290;
+    color: crimson;
+    box-shadow: 0px 10px 15px #af116b;
+    transition: 0.6s linear;
+}
+
+.name1 {
+    display: flex;
+    justify-content: space-between; /* Розташовуємо текст і картинку по краях */
+    align-items: center; /* Вертикальне вирівнювання */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: nowrap; /* Забороняємо перенос елементів */
+}
+
+.name1 p {
+    flex: 1; /* Текст займає доступний простір */
+    margin-right: 20px; /* Відступ між текстом і картинкою */
+}
+
+.name1 img {
+    flex: 0 0 auto; /* Картинка не розтягується */
+}
+
+.name2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img:hover {
+    box-shadow: 0px 10px 20px #1b11af;
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+
+.character {
+    background-color: rgb(10, 62, 107);
+    color: rgb(170, 13, 170);
+    border-radius: 55px;
+    padding: 15px;
+    width: 400px;
+    min-height: 500px;
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.character:hover {
+    background-color: #8f3066;
+    border: 5px double #D93290;
+    color: rgb(36, 34, 148);
+    box-shadow: 0px 10px 15px #af116b;
+    transition: 0.6s linear;
+}
+
+footer {
+    background-color: #3C1FB2;
+    padding: 20px 0;
+    width: 100%; /* Футер займає всю ширину */
+    text-align: center;
+}
+
+footer p {
+    max-width: 1200px;
+    margin: 0 auto 10px; /* Центруємо текст і додаємо відступ знизу */
+}
+
+footer iframe {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Центруємо iframe */
+    display: block; /* Робимо iframe блочним елементом */
+}
+
+footer iframe:hover {
+    box-shadow: 0px 10px 20px #1b11af;
+    transform: scale(1.1);
+    transition: 1s linear;
+}
+
+footer a {
+    background-color: #D93290;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 5px double #41102c;
+    color: #785be9;
+    display: inline-block;
+    margin-top: 10px; /* Відступ зверху для кнопки */
+}
+
+footer a:hover {
+    background-color: #41102c;
+    border: 5px double #D93290;
+    color: crimson;
+    box-shadow: 0px 10px 15px #af116b;
+    transition: 0.6s linear;
+}
